@@ -29,5 +29,6 @@ urlpatterns = [
     path('update_template/<int:pk>', AccountUpdateTemplateView.as_view(), name='update_template'),
     path('update/<int:pk>', AccountUpdateAPIView.as_view(), name='update'),
 
+
     path('delete/<int:pk>', AccountDestroyAPIView.as_view(), name='delete'),
 ]
